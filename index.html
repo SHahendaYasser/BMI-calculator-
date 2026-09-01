@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculater bmi</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body>
+        <!-- Add HTML markup elements for your web site below -->
+        <header><h1>Calculator for BMI</h1></header>
+        <main>
+            <div class="form">
+                <label class="height-lap">Input Your Height</label>
+                <input class="height-npt" id="height_npt" type="number" placeholder="1.7 or any height by meters">
+                <label class="weight-lap">Input Your Weight</label>
+                <input class="weight-npt" id="weight_npt" type="number" placeholder="62 or any weight by kilograms">
+                <button class="sub-btn" type="submit" id="sub_btn">Submit</button>
+            </div>
+            <div class="results" id="result_div">
+                <p id="result" class="p1"></p>
+                <p id="message" class="p2"></p>
+            </div>
+        </main>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
